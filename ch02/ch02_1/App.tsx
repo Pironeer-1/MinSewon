@@ -17,6 +17,12 @@ import {
   View,
 } from 'react-native';
 
+// export default function App() {
+//   //console.log('App Called')
+//   const textElement = React.createElement(Text, null, 'Hello World!')
+//   return textElement
+// }
+
 import {
   Colors,
   DebugInstructions,
@@ -24,6 +30,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+
 
 type SectionProps = PropsWithChildren<{
   title: string;

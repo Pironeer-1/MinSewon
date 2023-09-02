@@ -77,3 +77,98 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+```
+ch02_1
+├─ .bundle
+│  └─ config
+├─ .eslintrc.js
+├─ .gitignore
+├─ .prettierrc.js
+├─ .watchmanconfig
+├─ android
+│  ├─ app
+│  │  ├─ proguard-rules.pro
+│  │  └─ src
+│  │     ├─ debug
+│  │     │  ├─ AndroidManifest.xml
+│  │     │  └─ java
+│  │     │     └─ com
+│  │     │        └─ ch02_1
+│  │     │           └─ ReactNativeFlipper.java
+│  │     ├─ main
+│  │     │  ├─ AndroidManifest.xml
+│  │     │  ├─ java
+│  │     │  │  └─ com
+│  │     │  │     └─ ch02_1
+│  │     │  │        ├─ MainActivity.java
+│  │     │  │        └─ MainApplication.java
+│  │     │  └─ res
+│  │     │     ├─ drawable
+│  │     │     │  └─ rn_edit_text_material.xml
+│  │     │     ├─ mipmap-hdpi
+│  │     │     │  ├─ ic_launcher.png
+│  │     │     │  └─ ic_launcher_round.png
+│  │     │     ├─ mipmap-mdpi
+│  │     │     │  ├─ ic_launcher.png
+│  │     │     │  └─ ic_launcher_round.png
+│  │     │     ├─ mipmap-xhdpi
+│  │     │     │  ├─ ic_launcher.png
+│  │     │     │  └─ ic_launcher_round.png
+│  │     │     ├─ mipmap-xxhdpi
+│  │     │     │  ├─ ic_launcher.png
+│  │     │     │  └─ ic_launcher_round.png
+│  │     │     ├─ mipmap-xxxhdpi
+│  │     │     │  ├─ ic_launcher.png
+│  │     │     │  └─ ic_launcher_round.png
+│  │     │     └─ values
+│  │     │        ├─ strings.xml
+│  │     │        └─ styles.xml
+│  │     └─ release
+│  │        └─ java
+│  │           └─ com
+│  │              └─ ch02_1
+│  │                 └─ ReactNativeFlipper.java
+│  ├─ gradle
+│  │  └─ wrapper
+│  │     ├─ gradle-wrapper.jar
+│  │     └─ gradle-wrapper.properties
+│  ├─ gradle.properties
+│  ├─ gradlew
+│  └─ gradlew.bat
+├─ app.json
+├─ App.tsx
+├─ babel.config.js
+├─ Gemfile
+├─ index.js
+├─ ios
+│  ├─ .xcode.env
+│  ├─ ch02_1
+│  │  ├─ AppDelegate.h
+│  │  ├─ AppDelegate.mm
+│  │  ├─ Images.xcassets
+│  │  │  ├─ AppIcon.appiconset
+│  │  │  │  └─ Contents.json
+│  │  │  └─ Contents.json
+│  │  ├─ Info.plist
+│  │  ├─ LaunchScreen.storyboard
+│  │  └─ main.m
+│  ├─ ch02_1.xcodeproj
+│  │  ├─ project.pbxproj
+│  │  └─ xcshareddata
+│  │     └─ xcschemes
+│  │        └─ ch02_1.xcscheme
+│  ├─ ch02_1Tests
+│  │  ├─ ch02_1Tests.m
+│  │  └─ Info.plist
+│  └─ Podfile
+├─ jest.config.js
+├─ metro.config.js
+├─ package-lock.json
+├─ package.json
+├─ README.md
+├─ tsconfig.json
+└─ __tests__
+   └─ App.test.tsx
+
+```
