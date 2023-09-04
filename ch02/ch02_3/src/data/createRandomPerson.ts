@@ -10,9 +10,9 @@ export const CreateRandomPerson = (): IPerson => {
         modifiedDate: new Date,
         name,
         email: F.randomEmail(),
-        avatar: F.ramdomAvartarUrl(name),
+        avatar: F.ramdomAvatarUrl(name),
         image: F.randomImage(),
-        comments: F.randomParagraphs(4),
+        comments: F.randomParagraphs(1),
         counts: {
             comment: U.random(10, 100),
             retweet: U.random(10, 100),
